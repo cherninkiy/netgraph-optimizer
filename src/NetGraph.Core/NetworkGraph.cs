@@ -7,9 +7,9 @@
 public sealed class NetworkGraph
 {
     private readonly Link[] _links;
-    private int[] _offsets;     // размер NodeCount + 1
-    private int[] _edgeIndices; // индексы рёбер, отсортированные по From (stable)
-    private Dictionary<int, int> _directEdge; // from*NodeCount+to -> ребро с минимальным Cost
+    private int[] _offsets = null!;     // размер NodeCount + 1
+    private int[] _edgeIndices = null!; // индексы рёбер, отсортированные по From (stable)
+    private Dictionary<int, int> _directEdge = null!; // from*NodeCount+to -> ребро с минимальным Cost
 
     public int NodeCount { get; }
     public int LinksCount => _links.Length;

@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/NetGraph.Benchmarks/NetGraph.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/NetGraph.Cli/NetGraph.Cli.csproj" />
+    <Project Path="src/NetGraph.Core/NetGraph.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/NetGraph.Tests/NetGraph.Tests.csproj" />
+  </Folder>
+</Solution>

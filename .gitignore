@@ -1,8 +1,46 @@
-﻿bin/
+﻿# Build results
+bin/
 obj/
 artifacts/
-BenchmarkDotNet.Artifacts/
-*.user
-.vs/
 
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# Test results
+TestResults/
+*.trx
+
+# NuGet
+*.nupkg
+packages/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# VS Code (опционально)
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Task (не публикуем)
+task/
+
+# Generated artifacts
 graph.dot
+graph.png
+network.png
+*.png
+!docs/**/*.png

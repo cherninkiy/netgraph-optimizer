@@ -1,10 +1,7 @@
-﻿# Обновлённый README.md
-
 # NetGraph Optimizer: High-Performance MCF Solver for SDN/Telecom Networks
 
 [![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build](https://github.com/cherninkiy/netgraph-optimizer/actions/workflows/build.yml/badge.svg)](https://github.com/cherninkiy/netgraph-optimizer/actions/workflows/build.yml)
 [![Tests](https://github.com/cherninkiy/netgraph-optimizer/actions/workflows/build.yml/badge.svg?job=test)](https://github.com/cherninkiy/netgraph-optimizer/actions/workflows/build.yml)
 
 Оптимизатор распределения трафика в SDN-сети: для каждого потока (flow) с требованиями по полосе и максимальной задержке находим путь так, чтобы ни один линк не был перегружен, а **максимальная утилизация канала (MLU)** была минимальной.
